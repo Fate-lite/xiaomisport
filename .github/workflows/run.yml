@@ -1,14 +1,14 @@
 name: miSport
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: 0 8 * * *
-  watch:
-    types: started
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+#   schedule:
+#     - cron: 0 8 * * *
+#   watch:
+#     types: started
 
 jobs:
   build:
